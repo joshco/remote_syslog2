@@ -1,6 +1,8 @@
 # see README - demonstrates all optional arguments and more glob formats
 files: 
   - /var/log/httpd/access_log
+  - path: /var/log/http-staging/access_log
+    tag: staging # this changes the log name to staging, letting you differentiate between your production web access_log and staging web access_log
   - /var/log/httpd/error_log
   - /opt/misc/*.log
   - /home/**/*.log
