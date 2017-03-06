@@ -8,7 +8,6 @@ files:
   - /home/**/*.log
   - /var/log/mysqld.log
   - /var/run/mysqld/mysqld-slow.log
-  
 exclude_files:
   - old
   - 200\d
